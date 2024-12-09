@@ -6,7 +6,7 @@ using System.IO;
 using OpenAI;
 
 public class OpenAIParent : MonoBehaviour{
-    protected OpenAIApi openai = new OpenAIApi("sk-proj-Ly3M19Gu9kq2dhkTrcLxT3BlbkFJVgTDbaLhHxCAslKm6EZY");
+    protected OpenAIApi openai = new OpenAIApi("s");
     protected string language = "id";
 
     public void SetLanguage(string language){
